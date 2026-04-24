@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ReservationSystem.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "reservationSystem-ui\\",
+        "Action": "Start"
+      }
+    ]
+  }
+]

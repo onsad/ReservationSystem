@@ -25,9 +25,9 @@ namespace ReservationSystem.Service
 
             appDbContext.Reservations.Add(reservation);
 
-            await Log("CREATE", reservation.Id, context);
-
             await appDbContext.SaveChangesAsync();
+
+            await Log("CREATE", reservation.Id, context);
 
             return reservation;
         }
